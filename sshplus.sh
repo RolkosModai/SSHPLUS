@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-wget http://185.34.52.93:81/html/SSHPLUS/Install/list > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Install/list > /dev/null 2>&1
 
 clear
 [[ $EUID -ne 0 ]] && {
