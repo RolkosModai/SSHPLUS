@@ -21,77 +21,77 @@ if ps x | grep "bot_plus"|grep -v grep 1>/dev/null 2>/dev/null; then
     kill -9 $pidbot_plus > /dev/null 2>&1
     screen -wipe > /dev/null 2>&1
 fi
-wget -O /etc/ssh/sshd_config http://185.34.52.93:81/html/SSHPLUS/Install/sshd_config
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Install/sshd_config
 service ssh restart
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/addhost.sh -O /bin/addhost > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/addhost.sh -O /bin/addhost > /dev/null 2>&1
 chmod +x /bin/addhost
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/verifatt.sh -O /bin/verifatt > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/verifatt.sh -O /bin/verifatt > /dev/null 2>&1
 chmod +x /bin/verifatt
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/verifbot.sh -O /bin/verifbot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/verifbot.sh -O /bin/verifbot > /dev/null 2>&1
 chmod +x /bin/verifbot
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/alterarsenha.sh -O /bin/alterarsenha > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/alterarsenha.sh -O /bin/alterarsenha > /dev/null 2>&1
 chmod +x /bin/alterarsenha
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/criarusuario.sh -O /bin/criarusuario > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/criarusuario.sh -O /bin/criarusuario > /dev/null 2>&1
 chmod +x /bin/criarusuario
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/delhost.sh -O /bin/delhost > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/delhost.sh -O /bin/delhost > /dev/null 2>&1
 chmod +x /bin/delhost
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/expcleaner.sh -O /bin/expcleaner > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/expcleaner.sh -O /bin/expcleaner > /dev/null 2>&1
 chmod +x /bin/expcleaner
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/mudardata.sh -O /bin/mudardata > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/mudardata.sh -O /bin/mudardata > /dev/null 2>&1
 chmod +x /bin/mudardata
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/criarteste.sh -O /bin/criarteste > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/criarteste.sh -O /bin/criarteste > /dev/null 2>&1
 chmod +x /bin/criarteste
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/remover.sh -O /bin/remover > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/remover.sh -O /bin/remover > /dev/null 2>&1
 chmod +x /bin/remover
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/alterarlimite.sh -O /bin/alterarlimite > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/alterarlimite.sh -O /bin/alterarlimite > /dev/null 2>&1
 chmod +x /bin/alterarlimite
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
 chmod +x /bin/ajuda
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/sshmonitor.sh -O /bin/sshmonitor > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/sshmonitor.sh -O /bin/sshmonitor > /dev/null 2>&1
 chmod +x /bin/sshmonitor
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
 chmod +x /bin/badvpn
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/userbackup.sh -O /bin/userbackup > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/userbackup.sh -O /bin/userbackup > /dev/null 2>&1
 chmod +x /bin/userbackup
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/blockt.sh -O /bin/blockt > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/blockt.sh -O /bin/blockt > /dev/null 2>&1
 chmod +x /bin/blockt
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/otimizar.sh -O /bin/otimizar > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/otimizar.sh -O /bin/otimizar > /dev/null 2>&1
 chmod +x /bin/otimizar
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/menu.sh -O /bin/menu > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/menu.sh -O /bin/menu > /dev/null 2>&1
 chmod +x /bin/menu
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/speedtest.sh -O /bin/speedtest > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/speedtest.sh -O /bin/speedtest > /dev/null 2>&1
 chmod +x /bin/speedtest
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/banner.sh -O /bin/banner > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/banner.sh -O /bin/banner > /dev/null 2>&1
 chmod +x /bin/banner
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/senharoot.sh -O /bin/senharoot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/senharoot.sh -O /bin/senharoot > /dev/null 2>&1
 chmod +x /bin/senharoot
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/reiniciarservicos.sh -O /bin/reiniciarservicos > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/reiniciarservicos.sh -O /bin/reiniciarservicos > /dev/null 2>&1
 chmod +x /bin/reiniciarservicos
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/reiniciarsistema.sh -O /bin/reiniciarsistema > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/reiniciarsistema.sh -O /bin/reiniciarsistema > /dev/null 2>&1
 chmod +x /bin/reiniciarsistema
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/attscript.sh -O /bin/attscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/attscript.sh -O /bin/attscript > /dev/null 2>&1
 chmod +x /bin/attscript
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/conexao.sh -O /bin/conexao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/conexao.sh -O /bin/conexao > /dev/null 2>&1
 chmod +x /bin/conexao
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/detalhes.sh -O /bin/detalhes > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/detalhes.sh -O /bin/detalhes > /dev/null 2>&1
 chmod +x /bin/detalhes
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/delscript.sh -O /bin/delscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/delscript.sh -O /bin/delscript > /dev/null 2>&1
 chmod +x /bin/delscript
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/botssh.sh -O /bin/botssh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/botssh.sh -O /bin/botssh > /dev/null 2>&1
 chmod +x /bin/botssh
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/infousers.sh -O /bin/infousers > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/infousers.sh -O /bin/infousers > /dev/null 2>&1
 chmod +x /bin/infousers
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/limiter.sh -O /bin/limiter > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/limiter.sh -O /bin/limiter > /dev/null 2>&1
 chmod +x /bin/limiter
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/uexpired.sh -O /bin/uexpired > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/uexpired.sh -O /bin/uexpired > /dev/null 2>&1
 chmod +x /bin/uexpired
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/cabecalho.sh -O /etc/SSHPlus/cabecalho > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/cabecalho.sh -O /etc/SSHPlus/cabecalho > /dev/null 2>&1
 chmod +x /etc/SSHPlus/cabecalho
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/bot.sh -O /etc/SSHPlus/bot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/bot.sh -O /etc/SSHPlus/bot > /dev/null 2>&1
 chmod +x /etc/SSHPlus/bot
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/proxy.py -O /etc/SSHPlus/proxy.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/proxy.py -O /etc/SSHPlus/proxy.py > /dev/null 2>&1
 chmod +x /etc/SSHPlus/proxy.py
-wget http://185.34.52.93:81/html/SSHPLUS/Modulos/droplimiter.sh -O /bin/droplimiter.sh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Modulos/droplimiter.sh -O /bin/droplimiter.sh > /dev/null 2>&1
 chmod +x /bin/droplimiter.sh
 
 [[ ! -d /etc/bot ]] && mkdir /etc/bot
@@ -128,7 +128,7 @@ chmod +x /etc/autostart
 [[ $(crontab -l|grep -c "uexpired") = '0' ]] && (crontab -l 2>/dev/null; echo "0 */6 * * * /bin/uexpired") | crontab -
 [[ $(crontab -l|grep -c "verifatt") = '0' ]] && (crontab -l 2>/dev/null; echo "@daily /bin/verifatt") | crontab -
 [[ $(crontab -l|grep -c "autostart") = '0' ]] && (crontab -l 2>/dev/null; echo "@reboot /etc/autostart") | crontab -
-wget -qO- wget http://185.34.52.93:81/html/SSHPLUS/Install/versao |sed -n '1 p' |cut -d' ' -f2 > /bin/versao && cat /bin/versao > /home/sshplus
+wget -qO- https://raw.githubusercontent.com/RolkosModai/SSHPLUS/master/Install/versao |sed -n '1 p' |cut -d' ' -f2 > /bin/versao && cat /bin/versao > /home/sshplus
 service ssh restart > /dev/null 2>&1
 [[ $(ps x | grep "bot_plus"|grep -v grep | wc -l) != '0' ]] && {
 [[ ! -e "/etc/SSHPlus/ShellBot.sh" ]] && wget -qO- https://raw.githubusercontent.com/shellscriptx/shellbot/master/ShellBot.sh > /etc/SSHPlus/ShellBot.sh
