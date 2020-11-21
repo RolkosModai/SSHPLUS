@@ -35,14 +35,14 @@ done
 } 
 if [ ! -f "$database" ]
 then
-	echo "Arquivo /root/usuarios.db não encontrado"
+	echo "Failas /root/usuarios.db nerastas"
 	exit 1
 fi
 while true
 do
 	clear
-	echo -e "\E[42;1;37m               LIMITER DROPBEAR                \E[0m"
-    echo -e "\E[42;1;37m Ususario                       Conexao/Limite \E[0m"
+	echo -e "\E[42;1;37m               DROPBEAR LIMITAI                \E[0m"
+    echo -e "\E[42;1;37m Vartotojas                       Prisijungimas/Limitas \E[0m"
     while read usline
     do
 		user="$(echo $usline | cut -d' ' -f1)"
@@ -56,7 +56,7 @@ do
 		    rm /tmp/userpid
 		    tput setaf 3 ; tput bold ; printf '  %-35s%s\n' $user $s3drop/$s2ssh; tput sgr0
 		    if [ "$s3drop" -gt "$s2ssh" ]; then
-		        echo -e "\E[41;1;37m Usuário desconectado por ultrapassar o limite! \E[0m"
+		        echo -e "\E[41;1;37m Vartotojas atjungiamas virsijus limita! \E[0m"
 		        while read line
 		        do
 		           tmp="$(echo $line | cut -d' ' -f1)"
