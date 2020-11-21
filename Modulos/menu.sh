@@ -178,7 +178,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m           ᵇʸ Rolka       ⇱  SSHPLUS MANAGER ⇲       \E[0m"
+echo -e "\E[41;1;37m           Modifikuota  Rolkos  ir  Arturo            \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mSISTEMA            ATMINTIS RAM       PROCESORIUS "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mIs viso:\033[1;37m$_ram \033[1;31mBranduoliai: \033[1;37m$_core\033[0m"
@@ -291,7 +291,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m           ᵇʸ Rolka       ⇱  SSHPLUS MANAGER ⇲       \E[0m"
+echo -e "\E[41;1;37m           Modifikuota  Rolkos  ir  Arturo            \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mSISTEMA            ATMINTIS RAM       PROCESORIUS "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mIs viso:\033[1;37m$_ram \033[1;31mBranduoliai: \033[1;37m$_core\033[0m"
