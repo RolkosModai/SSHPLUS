@@ -1,4 +1,4 @@
-  SSHPLUS
+  SSHPLUS MANAGER
   ==================================================================================
   
   Rekomenduojama Ubuntu 14 64bit
